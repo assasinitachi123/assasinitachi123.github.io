@@ -1,0 +1,105 @@
+body
+{
+	width: 1080px;
+	margin: auto;
+	font-family: "Trebuchet MS";
+}
+
+h1
+{
+	float: left;
+	width: 20%;
+	margin: 20px 20px 10px 20px;
+}
+
+h2
+{
+	padding-bottom: 15px;
+	border-bottom: 1px rgb(220,220,220) solid;
+}
+
+.navbar ul
+{
+	padding: 0px;
+	float: right;
+	margin: 25px 0px;
+	width: 50%;
+}
+
+.navbar li
+{
+	display: inline;
+	list-style: none;
+	color: rgb(122,131,145);
+	padding-right: 15px;
+}
+
+.navbar li a
+{
+	text-decoration: none;
+	color: rgb(190,190,190);
+}
+
+.navbar li a:hover
+{
+	color: rgb(33,33,33);
+}
+
+.section1
+{
+	padding: 0px 10px;
+	width: 330px;
+	float: left;
+	margin-right: 30px;
+}
+
+.section2
+{
+	padding: 0px 10px;
+	width: 330px;
+	float: left;
+	margin-right: 30px;
+}
+
+.button
+{
+	width: 75px;
+	padding: 5px;
+	background: rgb(31,31,33);
+	color: white;
+}
+
+.button:hover
+{
+	background: black;
+	cursor: pointer;
+}
+
+.footer
+{
+	width: 1080px;
+	float: left;
+}
+
+.footer a
+{
+	text-decoration: none;
+	color: rgb(150,150,150);
+}
+
+.footer a:hover
+{
+	color: rgb(33,33,33);
+}
+
+blockquote
+{
+	width: 220px;
+	float: right;
+	margin-right: 60px;
+}
+
+img
+{
+	padding-right: 30px;
+}
