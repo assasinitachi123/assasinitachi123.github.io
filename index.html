@@ -1,97 +1,233 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhishek Sahu | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/7f2eb81fcb.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <nav class="sidebar">
-        <div class="toggle-theme" onclick="toggleTheme()">🌙</div>
-        <ul>
-            <li><a href="#home"><i class="fas fa-home"></i></a></li>
-            <li><a href="#about"><i class="fas fa-user"></i></a></li>
-            <li><a href="#career"><i class="fas fa-briefcase"></i></a></li>
-            <li><a href="#skills"><i class="fas fa-star"></i></a></li>
-            <li><a href="#portfolio"><i class="fas fa-images"></i></a></li>
-            <li><a href="#contact"><i class="fas fa-envelope"></i></a></li>
-        </ul>
-    </nav>
-    
-    <section id="home" class="parallax">
-        <div class="content">
-            <h1>Coder by mind, QA by profession,<br> Graphics Designer as a hobby, and Gamer by heart.</h1>
-            <p>A polymath with a passion for excellence in multiple fields.</p>
-            <img src="images/profile.jpg" alt="Abhishek Sahu">
-        </div>
-    </section>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <div class="timeline">
-            <div class="event">
-                <h3>Born in Rourkela, Odisha</h3>
-                <p>Rourkela, known as the 'Steel City of Odisha', houses one of India's largest steel plants.</p>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Abhishek Sahu</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+    	
+    	<!-- Banner -->
+      <div class="fix">
+        <div class="row banner">
+            <div class="col-lg-10 col-xs-10 heading">
+            	Abhishek Sahu
             </div>
-            <div class="event">
-                <h3>Studied at St. Paul's School</h3>
-                <p>Completed schooling up to Class 12 in Rourkela, a city also known for institutions like NIT Rourkela.</p>
-            </div>
-            <div class="event">
-                <h3>Graduated from KIIT University</h3>
-                <p>Pursued B.Tech in Computer Science at KIIT, ranked 15th among Indian universities by NIRF in 2024.</p>
-            </div>
-            <div class="event">
-                <h3>Moved to Hyderabad for work</h3>
-                <p>Relocated to Hyderabad, contributing to the tech industry since then.</p>
+         	  <div class="col-lg-2 col-xs-2" align="center">
+            	<a href="#"><img alt="profile-picture" src="img/004.jpg" height="130px" /></a>
             </div>
         </div>
-    </section>
-    
-    <section id="career">
-        <h2>Professional Career</h2>
-        <p>Lead Salesforce QA with an eye for detail and a passion for quality.</p>
-    </section>
-    
-    <section id="skills">
-        <h2>Skills & Expertise</h2>
-        <div class="badges">
-            <div class="badge">Salesforce</div>
-            <div class="badge">Manual Testing</div>
-            <div class="badge">Graphics Design</div>
-            <div class="badge">Cooking</div>
-            <div class="badge">Gaming</div>
-        </div>
-    </section>
-    
-    <section id="portfolio">
-        <h2>Digital Portfolio</h2>
-        <div class="gallery">
-            <!-- Example of a project item -->
-            <div class="project-item">
-                <img src="images/project1.png" alt="Project 1">
-                <div class="project-info">
-                    <h3>Project Title 1</h3>
-                    <p>Short description of the project.</p>
-                </div>
+      </div>
+      <!-- End OF Banner -->
+        
+      <div class="dummy"></div>
+
+      <!-- Aternate Header --> 
+      <div class="main-content">
+      	<section style="background:#efefe9;">
+              <div class="container">
+                  <div class="row">
+                      <div class="board">
+                        <div class="board-inner">
+                          <ul class="nav nav-tabs" id="myTab">
+                          <li class="active">
+                              <a href="#home" data-toggle="tab" title="welcome">
+                              <span class="round-tabs one">
+                                  <i class="glyphicon glyphicon-home"></i>
+                              </span> 
+                              </a>
+                          </li>
+                        	<li><a href="#profile" data-toggle="tab" title="profile">
+                          	<span class="round-tabs two">
+                              <i class="glyphicon glyphicon-user"></i>
+                          	</span> 
+                 				</a>
+                       	</li>
+                       	<li><a href="#messages" data-toggle="tab" title="bootsnipp goodies">
+                          	<span class="round-tabs three">
+                              <i class="glyphicon glyphicon-gift"></i>
+                           	</span> </a>
+                          </li>
+                          <li><a href="#settings" data-toggle="tab" title="blah blah">
+                          	<span class="round-tabs four">
+                              <i class="glyphicon glyphicon-comment"></i>
+                              </span> 
+                           	</a>
+                          </li>
+                          <li><a href="#doner" data-toggle="tab" title="completed">
+                              <span class="round-tabs five">
+                              <i class="glyphicon glyphicon-ok"></i>
+                              </span> </a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="tab-content">
+                  	<div class="tab-pane fade in active" id="home">
+      	                <h3 class="head text-center">Welcome to my Website<sup>™</sup> <span style="color:#f48260;">♥</span></h3>
+                          <p class="narrow text-center">
+          	                Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+                          </p>
+                          <p>Ground round sirloin landjaeger tongue, biltong porchetta corned beef sausage pork fatback drumstick cow salami t-bone. Jowl porchetta rump picanha andouille venison. T-bone fatback spare ribs chuck shoulder, brisket meatloaf ribeye picanha beef porchetta sausage alcatra hamburger cow. T-bone chuck ham hock strip steak, short loin beef meatball filet mignon ham tail spare ribs cupim.
+
+                          Jowl pork porchetta tenderloin salami brisket spare ribs boudin ball tip ham hock cupim prosciutto ribeye. Venison fatback kielbasa, tail brisket beef ribs pork belly leberkas biltong swine meatball chuck turducken filet mignon ribeye. Biltong ball tip ribeye, pig pastrami pancetta tail turkey. Short ribs ham fatback pastrami ribeye tri-tip ground round corned beef beef boudin bacon.
+
+                          Corned beef t-bone sausage cupim flank short ribs swine picanha. Tri-tip ham strip steak, spare ribs boudin meatloaf flank prosciutto. Salami ground round drumstick ham andouille. Salami prosciutto ribeye, beef ribs pork ham hock meatball shoulder. Chuck jowl pork meatloaf prosciutto tongue ball tip, filet mignon rump pancetta. Pancetta short ribs pork loin shoulder pig boudin.</p>
+
+                          <p>Corned beef prosciutto bresaola biltong chuck pastrami ground round ribeye salami short loin cow kevin pancetta kielbasa. Short loin kevin swine ham. Sirloin prosciutto ball tip, ham hock short loin doner leberkas t-bone strip steak drumstick porchetta alcatra shankle. Pork shoulder landjaeger cupim, ground round porchetta cow brisket flank leberkas andouille boudin turkey pork belly beef. Shank corned beef ball tip ribeye spare ribs doner andouille, biltong pork belly turducken sirloin capicola pork loin picanha. Frankfurter biltong chuck beef shankle.</p>    
+                          <p class="text-center">
+                        	  <a href="" class="btn btn-success btn-outline-rounded green"> Start Following me <span style="margin-left:10px;" class="glyphicon glyphicon-send"></span></a>
+                      	</p>
+                       </div>
+                       <div class="tab-pane fade" id="profile">
+                  	     <h3 class="head text-center">Create a Bootsnipp<sup>™</sup> Profile</h3>
+                      	 <p class="narrow text-center">
+                          	 Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+                           </p>
+                           <p>Ground round sirloin landjaeger tongue, biltong porchetta corned beef sausage pork fatback drumstick cow salami t-bone. Jowl porchetta rump picanha andouille venison. T-bone fatback spare ribs chuck shoulder, brisket meatloaf ribeye picanha beef porchetta sausage alcatra hamburger cow. T-bone chuck ham hock strip steak, short loin beef meatball filet mignon ham tail spare ribs cupim.
+
+                          Jowl pork porchetta tenderloin salami brisket spare ribs boudin ball tip ham hock cupim prosciutto ribeye. Venison fatback kielbasa, tail brisket beef ribs pork belly leberkas biltong swine meatball chuck turducken filet mignon ribeye. Biltong ball tip ribeye, pig pastrami pancetta tail turkey. Short ribs ham fatback pastrami ribeye tri-tip ground round corned beef beef boudin bacon.
+
+                          Corned beef t-bone sausage cupim flank short ribs swine picanha. Tri-tip ham strip steak, spare ribs boudin meatloaf flank prosciutto. Salami ground round drumstick ham andouille. Salami prosciutto ribeye, beef ribs pork ham hock meatball shoulder. Chuck jowl pork meatloaf prosciutto tongue ball tip, filet mignon rump pancetta. Pancetta short ribs pork loin shoulder pig boudin.</p>
+
+                          <p>Corned beef prosciutto bresaola biltong chuck pastrami ground round ribeye salami short loin cow kevin pancetta kielbasa. Short loin kevin swine ham. Sirloin prosciutto ball tip, ham hock short loin doner leberkas t-bone strip steak drumstick porchetta alcatra shankle. Pork shoulder landjaeger cupim, ground round porchetta cow brisket flank leberkas andouille boudin turkey pork belly beef. Shank corned beef ball tip ribeye spare ribs doner andouille, biltong pork belly turducken sirloin capicola pork loin picanha. Frankfurter biltong chuck beef shankle.</p>
+                           <p class="text-center">
+                          	<a href="" class="btn btn-success btn-outline-rounded green"> Make your own Website TODAY!!! <span style="margin-left:10px;" class="glyphicon glyphicon-send"></span></a>
+                      	 </p> 
+                        </div>
+                        <div class="tab-pane fade" id="messages">
+                        	<h3 class="head text-center">Bootsnipp goodies</h3>
+                          <p class="narrow text-center">
+                          	Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+                          </p>
+                          <p>Ground round sirloin landjaeger tongue, biltong porchetta corned beef sausage pork fatback drumstick cow salami t-bone. Jowl porchetta rump picanha andouille venison. T-bone fatback spare ribs chuck shoulder, brisket meatloaf ribeye picanha beef porchetta sausage alcatra hamburger cow. T-bone chuck ham hock strip steak, short loin beef meatball filet mignon ham tail spare ribs cupim.
+
+                          Jowl pork porchetta tenderloin salami brisket spare ribs boudin ball tip ham hock cupim prosciutto ribeye. Venison fatback kielbasa, tail brisket beef ribs pork belly leberkas biltong swine meatball chuck turducken filet mignon ribeye. Biltong ball tip ribeye, pig pastrami pancetta tail turkey. Short ribs ham fatback pastrami ribeye tri-tip ground round corned beef beef boudin bacon.
+
+                          Corned beef t-bone sausage cupim flank short ribs swine picanha. Tri-tip ham strip steak, spare ribs boudin meatloaf flank prosciutto. Salami ground round drumstick ham andouille. Salami prosciutto ribeye, beef ribs pork ham hock meatball shoulder. Chuck jowl pork meatloaf prosciutto tongue ball tip, filet mignon rump pancetta. Pancetta short ribs pork loin shoulder pig boudin.</p>
+
+                          <p>Corned beef prosciutto bresaola biltong chuck pastrami ground round ribeye salami short loin cow kevin pancetta kielbasa. Short loin kevin swine ham. Sirloin prosciutto ball tip, ham hock short loin doner leberkas t-bone strip steak drumstick porchetta alcatra shankle. Pork shoulder landjaeger cupim, ground round porchetta cow brisket flank leberkas andouille boudin turkey pork belly beef. Shank corned beef ball tip ribeye spare ribs doner andouille, biltong pork belly turducken sirloin capicola pork loin picanha. Frankfurter biltong chuck beef shankle.</p>       
+                          <p class="text-center">
+                        	  <a href="" class="btn btn-success btn-outline-rounded green"> Get Upgraded <span style="margin-left:10px;" class="glyphicon glyphicon-send"></span></a>
+                      	</p>
+                        </div>
+                        <div class="tab-pane fade" id="settings">
+                        	<h3 class="head text-center">Drop comments!</h3>
+                          <p class="narrow text-center">
+                          	Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+                          </p> 
+                          <p>Ground round sirloin landjaeger tongue, biltong porchetta corned beef sausage pork fatback drumstick cow salami t-bone. Jowl porchetta rump picanha andouille venison. T-bone fatback spare ribs chuck shoulder, brisket meatloaf ribeye picanha beef porchetta sausage alcatra hamburger cow. T-bone chuck ham hock strip steak, short loin beef meatball filet mignon ham tail spare ribs cupim.
+
+                          Jowl pork porchetta tenderloin salami brisket spare ribs boudin ball tip ham hock cupim prosciutto ribeye. Venison fatback kielbasa, tail brisket beef ribs pork belly leberkas biltong swine meatball chuck turducken filet mignon ribeye. Biltong ball tip ribeye, pig pastrami pancetta tail turkey. Short ribs ham fatback pastrami ribeye tri-tip ground round corned beef beef boudin bacon.
+
+                          Corned beef t-bone sausage cupim flank short ribs swine picanha. Tri-tip ham strip steak, spare ribs boudin meatloaf flank prosciutto. Salami ground round drumstick ham andouille. Salami prosciutto ribeye, beef ribs pork ham hock meatball shoulder. Chuck jowl pork meatloaf prosciutto tongue ball tip, filet mignon rump pancetta. Pancetta short ribs pork loin shoulder pig boudin.</p>
+
+                          <p>Corned beef prosciutto bresaola biltong chuck pastrami ground round ribeye salami short loin cow kevin pancetta kielbasa. Short loin kevin swine ham. Sirloin prosciutto ball tip, ham hock short loin doner leberkas t-bone strip steak drumstick porchetta alcatra shankle. Pork shoulder landjaeger cupim, ground round porchetta cow brisket flank leberkas andouille boudin turkey pork belly beef. Shank corned beef ball tip ribeye spare ribs doner andouille, biltong pork belly turducken sirloin capicola pork loin picanha. Frankfurter biltong chuck beef shankle.</p>       
+                          <p class="text-center">
+                        	  <a href="" class="btn btn-success btn-outline-rounded green"> Comment <span style="margin-left:10px;" class="glyphicon glyphicon-send"></span></a>
+                      	</p>
+                     	  </div>
+                        <div class="tab-pane fade" id="doner">
+                      	  <div class="text-center">
+                            	<i class="img-intro icon-checkmark-circle"></i>
+                            </div>
+                            <h3 class="head text-center">thanks for staying tuned! <span style="color:#f48260;">♥</span></h3>
+                            <p class="narrow text-center">
+                                Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+                            </p>
+                            <p>Ground round sirloin landjaeger tongue, biltong porchetta corned beef sausage pork fatback drumstick cow salami t-bone. Jowl porchetta rump picanha andouille venison. T-bone fatback spare ribs chuck shoulder, brisket meatloaf ribeye picanha beef porchetta sausage alcatra hamburger cow. T-bone chuck ham hock strip steak, short loin beef meatball filet mignon ham tail spare ribs cupim.
+
+                          Jowl pork porchetta tenderloin salami brisket spare ribs boudin ball tip ham hock cupim prosciutto ribeye. Venison fatback kielbasa, tail brisket beef ribs pork belly leberkas biltong swine meatball chuck turducken filet mignon ribeye. Biltong ball tip ribeye, pig pastrami pancetta tail turkey. Short ribs ham fatback pastrami ribeye tri-tip ground round corned beef beef boudin bacon.
+
+                          Corned beef t-bone sausage cupim flank short ribs swine picanha. Tri-tip ham strip steak, spare ribs boudin meatloaf flank prosciutto. Salami ground round drumstick ham andouille. Salami prosciutto ribeye, beef ribs pork ham hock meatball shoulder. Chuck jowl pork meatloaf prosciutto tongue ball tip, filet mignon rump pancetta. Pancetta short ribs pork loin shoulder pig boudin.</p>
+
+                          <p>Corned beef prosciutto bresaola biltong chuck pastrami ground round ribeye salami short loin cow kevin pancetta kielbasa. Short loin kevin swine ham. Sirloin prosciutto ball tip, ham hock short loin doner leberkas t-bone strip steak drumstick porchetta alcatra shankle. Pork shoulder landjaeger cupim, ground round porchetta cow brisket flank leberkas andouille boudin turkey pork belly beef. Shank corned beef ball tip ribeye spare ribs doner andouille, biltong pork belly turducken sirloin capicola pork loin picanha. Frankfurter biltong chuck beef shankle.</p>
+                         </div>
+                         <div class="clearfix"></div>
+                      </div>  
+                	</div>
+              </div>
+          </div>
+        </section> 
+      </div>
+      	<!-- End of Alternate Header -->
+        
+         <!-- Contents --> <!-- 
+         <div class="container main-content">
+         	<div class="row">
+            	<div class="col-lg-8 col-xs-12">
+                	<h2>Content</h2>
+                    <p>Lorem ipsum dolor sit amet, quis mauris mauris egestas, habitasse augue accumsan pede. Lorem leo mi nec, proin urna mattis nulla maecenas quis, curabitur vestibulum felis lectus nibh dui est. Elementum fringilla interdum libero enim commodo, natoque suscipit et metus morbi pulvinar, sit id, turpis quo quam amet iaculis varius.</p>
+                    <p>Lorem ipsum dolor sit amet, quis mauris mauris egestas, habitasse augue accumsan pede. Lorem leo mi nec, proin urna mattis nulla maecenas quis, curabitur vestibulum felis lectus nibh dui est. Elementum fringilla interdum libero enim commodo, natoque suscipit et metus morbi pulvinar, sit id, turpis quo quam amet iaculis varius.
+                    Lorem ipsum dolor sit amet, quis mauris mauris egestas, habitasse augue accumsan pede. Lorem leo mi nec, proin urna mattis nulla maecenas quis, curabitur vestibulum felis lectus nibh dui est. Elementum fringilla interdum libero enim commodo, natoque suscipit et metus morbi pulvinar, sit id, turpis quo quam amet iaculis varius.
+                   Lorem ipsum dolor sit amet, quis mauris mauris egestas, habitasse augue accumsan pede. Lorem leo mi nec, proin urna mattis nulla maecenas quis, curabitur vestibulum felis lectus nibh dui est. Elementum fringilla interdum libero enim commodo, natoque suscipit et metus morbi pulvinar, sit id, turpis quo quam amet iaculis varius.</p>
+                    <p>Lorem ipsum dolor sit amet, quis mauris mauris egestas, habitasse augue accumsan pede. Lorem leo mi nec, proin urna mattis nulla maecenas quis, curabitur vestibulum felis lectus nibh dui est. Elementum fringilla interdum libero enim commodo, natoque suscipit et metus morbi pulvinar, sit id, turpis quo quam amet iaculis varius.
+                    Lorem ipsum dolor sit amet, quis mauris mauris egestas, habitasse augue accumsan pede. Lorem leo mi nec, proin urna mattis nulla maecenas quis, curabitur vestibulum felis lectus nibh dui est. Elementum fringilla interdum libero enim commodo, natoque suscipit et metus morbi pulvinar, sit id, turpis quo quam amet iaculis varius.</p>
+                    <p>Lorem ipsum dolor sit amet, quis mauris mauris egestas, habitasse augue accumsan pede. Lorem leo mi nec, proin urna mattis nulla maecenas quis, curabitur vestibulum felis lectus nibh dui est. Elementum fringilla interdum libero enim commodo, natoque suscipit et metus morbi pulvinar, sit id, turpis quo quam amet iaculis varius.</p>
+                    <p>Bacon ipsum dolor amet hamburger prosciutto ham flank tri-tip ball tip kielbasa. Pancetta kevin pork chop pig chicken pastrami ball tip, jowl venison tri-tip pork picanha doner ribeye ham hock. Doner ham chicken pancetta andouille kevin jowl spare ribs, landjaeger sirloin prosciutto pork pastrami drumstick. Tail t-bone salami meatball jowl meatloaf venison leberkas drumstick ham hock pork loin boudin kielbasa. Pork chop bacon pancetta leberkas shoulder tail t-bone. Tongue sausage bresaola shankle t-bone picanha. Ham pork shankle frankfurter shank, chuck biltong tongue bacon.
+
+                    Ground round sirloin landjaeger tongue, biltong porchetta corned beef sausage pork fatback drumstick cow salami t-bone. Jowl porchetta rump picanha andouille venison. T-bone fatback spare ribs chuck shoulder, brisket meatloaf ribeye picanha beef porchetta sausage alcatra hamburger cow. T-bone chuck ham hock strip steak, short loin beef meatball filet mignon ham tail spare ribs cupim.
+
+                    Jowl pork porchetta tenderloin salami brisket spare ribs boudin ball tip ham hock cupim prosciutto ribeye. Venison fatback kielbasa, tail brisket beef ribs pork belly leberkas biltong swine meatball chuck turducken filet mignon ribeye. Biltong ball tip ribeye, pig pastrami pancetta tail turkey. Short ribs ham fatback pastrami ribeye tri-tip ground round corned beef beef boudin bacon.
+
+                    Corned beef t-bone sausage cupim flank short ribs swine picanha. Tri-tip ham strip steak, spare ribs boudin meatloaf flank prosciutto. Salami ground round drumstick ham andouille. Salami prosciutto ribeye, beef ribs pork ham hock meatball shoulder. Chuck jowl pork meatloaf prosciutto tongue ball tip, filet mignon rump pancetta. Pancetta short ribs pork loin shoulder pig boudin.</p>
+
+                    <p>Corned beef prosciutto bresaola biltong chuck pastrami ground round ribeye salami short loin cow kevin pancetta kielbasa. Short loin kevin swine ham. Sirloin prosciutto ball tip, ham hock short loin doner leberkas t-bone strip steak drumstick porchetta alcatra shankle. Pork shoulder landjaeger cupim, ground round porchetta cow brisket flank leberkas andouille boudin turkey pork belly beef. Shank corned beef ball tip ribeye spare ribs doner andouille, biltong pork belly turducken sirloin capicola pork loin picanha. Frankfurter biltong chuck beef shankle.<p>
+                                        
+                                    </div>
+                                    <div class="col-lg-2 col-xs-8">
+                                    	<h2>Poll</h2>
+                                        <p>Lorem ipsum dolor sit amet, quis mauris mauris egestas, habitasse augue accumsan pede. Lorem leo mi nec, proin urna mattis nulla maecenas quis, curabitur vestibulum felis lectus nibh dui est. Elementum fringilla interdum libero enim commodo, natoque suscipit et metus morbi pulvinar, sit id, turpis quo quam amet iaculis varius.</p>
+                                        <hr>
+                                        <h2>Trending</h2>
+                                        <p>Lorem ipsum dolor sit amet, quis mauris mauris egestas, habitasse augue accumsan pede. Lorem leo mi nec, proin urna mattis nulla maecenas quis, curabitur vestibulum felis lectus nibh dui est. Elementum fringilla interdum libero enim commodo, natoque suscipit et metus morbi pulvinar, sit id, turpis quo quam amet iaculis varius.</p>
+                                        <hr>
+                                        <h2>Latest</h2>
+                                        <p>Lorem ipsum dolor sit amet, quis mauris mauris egestas, habitasse augue accumsan pede. Lorem leo mi nec, proin urna mattis nulla maecenas quis, curabitur vestibulum felis lectus nibh dui est. Elementum fringilla interdum libero enim commodo, natoque suscipit et metus morbi pulvinar, sit id, turpis quo quam amet iaculis varius.</p>
+                                    </div>
+                                    <div class="col-lg-2 col-xs-4">
+                                    	<h2>Adv</h2>
+                                        <p>Lorem ipsum dolor sit amet, quis mauris mauris egestas, habitasse augue accumsan pede. Lorem leo mi nec, proin urna mattis nulla maecenas quis, curabitur vestibulum felis lectus nibh dui est. Elementum fringilla interdum libero enim commodo, natoque suscipit et metus morbi pulvinar, sit id, turpis quo quam amet iaculis varius.</p>
+                                        <p>Lorem ipsum dolor sit amet, quis mauris mauris egestas, habitasse augue accumsan pede. Lorem leo mi nec, proin urna mattis nulla maecenas quis, curabitur vestibulum felis lectus nibh dui est. Elementum fringilla interdum libero enim commodo, natoque suscipit et metus morbi pulvinar, sit id, turpis quo quam amet iaculis varius.</p>
+                                        <p>Lorem ipsum dolor sit amet, quis mauris mauris egestas, habitasse augue accumsan pede. Lorem leo mi nec, proin urna mattis nulla maecenas quis, curabitur vestibulum felis lectus nibh dui est. Elementum fringilla interdum libero enim commodo, natoque suscipit et metus morbi pulvinar, sit id, turpis quo quam amet iaculis varius.</p>
+                                    </div>
             </div>
-            <!-- Repeat for more projects -->
-        </div>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-        <p>
-            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> |
-            <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
-            <a href="https://www.youtube.com/yourchannel" target="_blank">YouTube</a> |
-            <a href="https://www.instagram.com/yourhandle" target="_blank">Instagram</a>
-        </p>
-    </section>
-</body>
+         </div> -->
+        
+        <!-- Footer -->
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <h3 class="footertext">About Me:</h3>
+                      <div class="col-md-4">
+                        <center>
+                          <img src="img/Prog.jpg" class="img-circle" alt="the-brains">
+                          <br>
+                          <h4 class="footertext">Programmer</h4>
+                          <p class="footertext">You can thank all the crazy programming here to this guy.<br>
+                        </center>
+                      </div>
+                      <div class="col-md-4">
+                        <center>
+                          <img src="img/Art.jpg" class="img-circle" alt="...">
+                          <br>
+                          <h4 class="footertext">Artist</h4>
+                          <p class="footertext">All the images here are hand drawn by this man.<br>
+                        </center>
+                      </div>
+                      <div class="col-md-4">
+                        <center>
+                          <img src="img/Des.jpg" class="img-circle" alt="...">
+                          <br>
+                          <h4 class="footertext">Designer</h4>
+                          <p class="footertext">This pretty site and the copy it holds are all thanks to this guy.<br>
+                        </center>
+                      </div>
+                    </div>   
+            </div>
+        </div> 
+        <!-- End of Footer -->        
+	</body>
 </html>
